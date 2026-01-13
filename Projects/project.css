@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{background-color:#000000 ;
+     color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    
+    
+}
+.navbar-container{
+    margin-right: 58px;
+    margin-left: 67px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.wlcome{ color: #FFFFFF;
+animation:right-left  30s linear infinite ;
+}
+
+@keyframes right-left {
+  0% {transform: translateX(100vw);}
+  
+  100% {transform: translateX(-100vw);}
+}
+
+
+.logo{color:#FFFFFF ;
+font-family: 'Pacifico';
+font-size:32px;
+
+}
+.nav-items{
+
+}
+.nav-items ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+ul{
+    gap: 32px;
+    
+
+}
+ul li{
+
+}
+ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Inter Tight', sans-serif;
+  
+}
+.home{color: #FF014F;}
+span{
+    color: #FF014F;
+}
+.btn{background-color:#FF014F;
+    text-decoration: none;
+    padding:11px 20px;
+    border-radius: 10px;
+     color: #FFFFFF;
+    font-size:medium;
+
+}
+
+.hireMe{  animation-duration: 2s;
+  animation-name: hireMe-color;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes hireMe-color {
+  from {
+    background-color:#FF014F;
+  }
+
+  to {
+    background-color: green;
+  }
+}
+
+
+
+
+
+main{margin-right: 58px;
+    margin-left: 67px;
+    background-color: #1E1E1E;
+}
+h4,h1{ text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+    padding-top: 10px;
+   
+}
+
+section{
+   
+    justify-content: center;
+    align-items: center;
+   
+    row-gap: 20px;
+    padding: 45px 20px;
+}
+.project1-container,
+.project2-container,
+.project3-container,
+.project4-container{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 70px;
+    width: 100%;
+   
+   
+       
+   
+}
+
+.card{
+    width: 30%;
+    margin-left:10px ;
+   
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+header{
+    
+}
+header h1{
+    
+}

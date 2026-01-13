@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: #131313;
+
+}
+
+.navbar-container{
+    margin-right: 58px;
+    margin-left: 67px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.wlcome{ color: #FFFFFF;
+animation:right-left  30s linear infinite ;
+}
+
+@keyframes right-left {
+  0% {transform: translateX(100vw);}
+  
+  100% {transform: translateX(-100vw);}
+}
+
+
+.logo{color:#FFFFFF ;
+font-family: 'Pacifico';
+font-size:32px;
+
+}
+.nav-items{
+
+}
+.nav-items ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+ul{
+    gap: 32px;
+    
+
+}
+ul li{
+
+}
+ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Inter Tight', sans-serif;
+  
+}
+.home{color: #FF014F;}
+span{
+    color: #FF014F;
+}
+.btn{background-color:#FF014F;
+    text-decoration: none;
+    padding:11px 20px;
+    border-radius: 10px;
+     color: #FFFFFF;
+    font-size:medium;
+
+}
+
+.hireMe{  animation-duration: 2s;
+  animation-name: hireMe-color;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes hireMe-color {
+  from {
+    background-color:#FF014F;
+  }
+
+  to {
+    background-color: green;
+  }
+}
+
+   
+
+
+.main-container{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    max-width:1300px ;
+   max-height:688.5px ;
+   padding-top: 46px;
+  margin-right: 58px;
+    margin-left: 67px;
+background-color: #1E1E1E;
+}
+.left-col{display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items:flex-start;
+font-family: 'Inter', sans-serif;
+}
+.left-col h1{
+     letter-spacing: 8px;
+     font-size: 19px;
+
+}
+h1,h4{ color:#AEAEB2;
+
+}
+h2{
+    font-size: large;
+    color: #FFFFFF;
+
+}
+.text{color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    margin-top: 40px;
+    max-width: 540px;
+
+}
+
+.btn-container{margin-top: 40px;
+    display: flex;
+    gap: 18px;
+
+}
+
+
+.downloadCV{ transition: color 2.5s ease-out 0.1s;
+
+}
+.downloadCV:hover{ color: #373535;
+    background-color: #FFFFFF;}
+
+.contactMe{ background-color: #131313;
+    border: 1px solid #FF014F;
+    font-size: smaller;
+
+
+ animation-duration: 2s;
+  animation-name: contactMe-color;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+@keyframes contactMe-color {
+  from {
+    background-color: #131313;
+
+  }
+
+  to {
+    background-color: green;
+  }
+}
+
+
+
+.MyPhoto{
+    width: 244px;
+   
+}
+
+footer img{
+    padding-top: 40px;
+   margin-right: 58px;
+    margin-left: 67px;
+   background-color: #1E1E1E;
+   
+}

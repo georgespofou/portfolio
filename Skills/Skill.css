@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ font-family: 'Inter', sans-serif;
+    background-color:#000000 ;
+    
+    
+}
+
+.navbar-container{
+    margin-right: 58px;
+    margin-left: 67px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.wlcome{ color: #FFFFFF;
+animation:right-left  30s linear infinite ;
+}
+
+@keyframes right-left {
+  0% {transform: translateX(100vw);}
+  
+  100% {transform: translateX(-100vw);}
+}
+
+.logo{color:#FFFFFF ;
+font-family: 'Pacifico';
+font-size:32px;
+
+}
+.nav-items{
+
+}
+.nav-items ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+ul{
+    gap: 32px;
+    
+
+}
+ul li{
+
+}
+ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Inter Tight', sans-serif;
+  
+}
+.home{color: #FF014F;}
+span{
+    color: #FF014F;
+}
+.btn{background-color:#FF014F;
+    text-decoration: none;
+    padding:11px 20px;
+    border-radius: 10px;
+     color: #FFFFFF;
+    font-size:medium;
+
+}
+
+.hireMe{  animation-duration: 2s;
+  animation-name: hireMe-color;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes hireMe-color {
+  from {
+    background-color:#FF014F;
+  }
+
+  to {
+    background-color: green;
+  }
+}
+
+
+
+
+
+/*header{display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 14px;
+    padding-top: 12px;
+
+}*/
+span{color:#FF014F ;
+
+}
+.sp{
+    font-size: 24px;}
+h1,.sp{color:#FFFFFF ;
+   
+
+}
+.React{
+
+}
+.skills-container{border: 3px solid red;
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    width: 1261px;
+    height: 742px;
+    margin-left: 108px;
+    margin-right: 71px;
+    margin-top: 62px;
+
+
+}
+.row{
+
+}
+.row1{border: 1px solid blue;
+    margin-top: 20px;
+    
+}
+.row2{border: 2px solid green;
+    margin-top: 20px;
+
+}
+img{width: 150px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background: none;
+   
+
+}

@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {background-color:#000000 ;
+color: #FFFFFF;
+   
+    
+}
+
+.navbar-container{
+    margin-right: 58px;
+    margin-left: 67px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.wlcome{ color: #FFFFFF;
+animation:right-left  30s linear infinite ;
+}
+
+@keyframes right-left {
+  0% {transform: translateX(100vw);}
+  
+  100% {transform: translateX(-100vw);}
+}
+
+
+.logo{color:#FFFFFF ;
+font-family: 'Pacifico';
+font-size:32px;
+
+}
+.nav-items{
+
+}
+.nav-items ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+ul{
+    gap: 32px;
+    
+
+}
+ul li{
+
+}
+ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Inter Tight', sans-serif;
+  
+}
+.home{color: #FF014F;}
+span{
+    color: #FF014F;
+}
+
+
+.btn{background-color:#FF014F;
+    text-decoration: none;
+    padding:11px 20px;
+    border-radius: 10px;
+     color: #FFFFFF;
+    font-size:medium;
+
+}
+
+.hireMe{  animation-duration: 2s;
+  animation-name: hireMe-color;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes hireMe-color {
+  from {
+    background-color:#FF014F;
+  }
+
+  to {
+    background-color: green;
+  }
+}
+
+   
+
+
+
+.ct-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    background-color: #1E1E1E;
+    padding-top: 40px;
+    margin-right: 58px;
+    margin-left: 67px;
+    /*width:1319px;*/
+    
+}
+
+.left-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 20px;
+     padding-left: 5px; 
+     max-width: 500px; 
+     margin-right: 20px;
+     margin-left: 62px;
+}
+    .skill{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+        gap:10px ;
+        margin-bottom: 16px;
+    }
+       
+
+ h1{
+ }
+ h1 span{
+    color:#FF014F;
+    
+ }
+ .Text{ max-width: 100%;
+    
+
+    
+    
+ }
+ .title{
+    margin-top: 10px;
+    margin-bottom: 32px;
+   
+    
+
+ }
+
+.right-container{
+    display: block;
+    margin-right: 62px;
+    margin-top: 56px;
+    margin-bottom: 321px;
+    
+
+}
+
+.main-form{
+   margin-bottom: 28px;
+   
+  
+  
+    
+}
+.email,.subject,.messageArea, .name,.phone{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap:7px ;  
+}
+
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 30px;
+}
+
+input{
+    background-color: #2C2C2C;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 16px 24px;
+    margin-bottom: 24px;
+   
+}
+textarea{
+    background-color: #2C2C2C;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 16px 24px;
+     resize: none;
+    
+   
+}
+
+
+.Btn-container{display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-direction: row;
+    background-color: #FF014F;
+    border-radius: 8px;
+    margin-right: 290px;
+    width: 160px;
+    padding:1px 16px;
+    cursor: pointer;
+    
+     
+    
+
+}
+
+
+.btn{
+   
+    border: none;
+   /*background: none;
+   color: #FFFFFF;
+   background-color: #FF014F;*/
+   
+    
+    cursor: pointer;
+
+}
+.icon{margin-bottom: 27px;
+    padding: 3px;
+}
+.endFooter{display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 103.53px;
+    background-color:#2C2C2C; 
+    color: #FFFFFF;
+    margin-right: 58px;
+    margin-left: 67px;
+   
+
+}
+.text{ margin-left: 70px;
+
+}
+ .icon{ background-color: #FF014F;
+     cursor: pointer;
+
+}
+ .nav-items{ display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+     cursor: pointer;
+
+}
